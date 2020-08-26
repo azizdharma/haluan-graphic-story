@@ -27,6 +27,7 @@ a:hover {
     position: fixed;
     z-index: 1;
     background-color: #232323;
+    /* background-color:white; */
 }
 .navbar-brand {
     font-family: Viga;
@@ -35,7 +36,11 @@ a:hover {
 .navbar-brand img {
     height: 25px;
 }
+.nav-item-icon a {
+    color: white;
+    margin: 0px 5px;
 
+}
 .container .img-cover {
     height: 320px;
 }
